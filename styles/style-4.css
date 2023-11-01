@@ -28,9 +28,8 @@
 }
 .content-4 {
   color: #fff;
-  font-size: xxx-large;
+  font-size: 100px;
   font-weight: 700;
-  transform: translateZ(5px);
   font-family: "Segoe UI", cursive;
 }
 .static-4 {

@@ -1,7 +1,5 @@
 
 /* Section 1 */
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Raleway:800,900&dislay=swap');
 
 
 .parallax-section-one {
@@ -30,17 +28,6 @@
     transform: translateZ(-20px) scale(3);
     z-index: -97;
 }
-.normal-section-one {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.3rem;
-    padding: 2rem;
-    height: 110vh;
-    background-color: rgb(117, 111, 111);
-    color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 .title-section-one {
     position: fixed;
     top: 50%;
@@ -51,12 +38,33 @@
     transform: translateX(50%) translateY(-50%) translateZ(-27px) scale(4);
     z-index: -99;
 }
+.normal-section-one {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    height: 110vh;
+    background-color: rgb(117, 111, 111);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .paragraph-section-one {
-    width: 50%;
     padding: 4rem;
+    margin-top: 5rem;
+    width: 60%;
     line-height: 1.8em;
     letter-spacing: 3px;
     font-weight: 700;
+    text-align: center;
+}
+.image-container-section-one {
+    min-width: 40%;
+    padding-right: 2rem;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .paragraph-section-one::after,
 .paragraph-section-one::before {
@@ -70,19 +78,9 @@
 .paragraph-section-one::after {
     content: close-quote;
 }
-.image-container-section-one {
-    width: 50%;
-    height: 100%;
-    padding: 2rem;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .mountain-image-section-one {
     position: absolute;
-    height: 60%;
-    min-width: 300px;
+    width: 90%;
     border-radius: 2rem;
     border: 3px solid rgba(0, 0, 0, 0.3);
 }
@@ -104,14 +102,14 @@
         width: 100%;
     }
     .mountain-image-section-one {
-        width: 50%;
+        width: 70%;
         height: auto;
         padding: 0;
         margin: 0;
     }
     .paragraph-section-one {
         width: 100%;
-        padding: 0;
+        padding: 5rem;
     }
 }
 /* section 1 end */
