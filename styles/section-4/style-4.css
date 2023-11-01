@@ -6,7 +6,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  perspective: 20px;
+  perspective: 10px;
   transform-style: preserve-3d;
 }
 .parallax-4 {
@@ -25,13 +25,13 @@ body {
   background-size: cover;
   background-position: center;
   z-index: -1;
-  transform: translateZ(-20px) scale(2);
+  transform: translateZ(-10px) scale(2);
 }
 .content-4 {
   color: #fff;
   font-size: xxx-large;
   font-weight: 700;
-  transform: translateZ(10px);
+  transform: translateZ(5px);
 }
 .static-4 {
   padding-left: 20vw;
@@ -50,10 +50,10 @@ body {
 .cloud1 {
   position: absolute;
   width: 15%;
-  transform: translateZ(15px) translateX(-100px) translateY(70px);
+  transform: translateZ(7.5px) translateX(-100px) translateY(70px);
 }
 .cloud2 {
   position: absolute;
   width: 50%;
-  transform: translateZ(4px) translateX(280px) translateY(-70px);
+  transform: translateZ(2px) translateX(280px) translateY(-70px);
 }
