@@ -1,4 +1,4 @@
-*{
+/* *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
@@ -7,10 +7,10 @@
 
   body{
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
+  } */
 
 
-  .parallax{
+  .parallax-section-three{
     color: white;
     display: flex;
     justify-content: center;
@@ -24,28 +24,31 @@
   }
 
 
-  .bg-1{
+  .bg-1-section-three{
     background-image: url("/assets/section-three/green.jpg");
     width: 100%;
     height: 100vh;
   }
 
-  .bg-2{
+  .bg-2-section-three{
     background-image: url("/assets/section-three/landscape.jpg");
     width: 100%;
     height: 400px;
   }
-  .bg-3{
+  
+  .bg-3-section-three{
     background-image: url("/assets/section-three/garden.jpg");
     width: 100%;
     height: 100vh;
   }
-  .bg-4{
+
+  .bg-4-section-three{
     background-image: url("/assets/section-three/nature.jpg");
     width: 100%;
     height: 400px;
   }
-  .bg-5{
+
+  .bg-5-section-three{
     background-image: url("/assets/section-three/green.jpg");
     width: 100%;
     height: 100vh;
