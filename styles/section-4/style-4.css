@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family: "Segoe UI", cursive;
 }
-.container-4 {
+.container {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
@@ -32,6 +31,7 @@ body {
   font-size: xxx-large;
   font-weight: 700;
   transform: translateZ(5px);
+  font-family: "Segoe UI", cursive;
 }
 .static-4 {
   padding-left: 20vw;
@@ -46,6 +46,7 @@ body {
   font-size: xx-large;
   font-weight: 500;
   text-align: justify;
+  font-family: "Segoe UI", cursive;
 }
 .cloud1 {
   position: absolute;
