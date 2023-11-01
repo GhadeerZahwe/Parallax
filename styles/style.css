@@ -9,18 +9,23 @@
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
-.parallax{
+
+ .parallax{
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    text-shadow: 2px 2px 2px;
-}
+    text-shadow:2px 2px 2px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 
   .bg-1{
-    background-image: url("assets/green.jpg");
+    background-image: url("/assets/green.jpg");
     width: 100%;
     height: 100vh;
     background-attachment: fixed;
