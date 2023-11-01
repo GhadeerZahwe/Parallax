@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
 }
 .container {
@@ -7,7 +7,7 @@ body {
   overflow-y: auto;
   perspective: 10px;
   transform-style: preserve-3d;
-}
+} */
 .parallax-4 {
   height: 100vh;
   display: flex;
