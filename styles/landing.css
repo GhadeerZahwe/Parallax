@@ -1,7 +1,7 @@
 /* Section 1 */
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@300&display=swap");
 
-.parallax {
+.parallax-section-one {
     position: relative;
     height: 130vh;
     display: flex;
@@ -11,24 +11,24 @@
     z-index: -1;
 }
 
-.image-1,
-.image-2 {
+.image-1-section-one,
+.image-2-section-one {
     position: absolute;
     object-fit: cover;
     height: 100%;
     width: 101%;
 }
-.image-1 {
+.image-1-section-one {
     z-index: -100;
     transform: translateY(-50%) translateZ(-30px) scale(4);
 }
-.image-2 {
+.image-2-section-one {
     bottom: -50%;
     left: 0;
     transform: translateZ(-20px) scale(3);
     z-index: -97;
 }
-.normal {
+.normal-section-one {
     font-family: "Roboto", sans-serif;
     font-size: 1.3rem;
     padding: 2rem;
@@ -39,7 +39,7 @@
     justify-content: space-around;
     align-items: center;
 }
-.title {
+.title-section-one {
     position: fixed;
     top: 50%;
     right: 50%;
@@ -49,26 +49,26 @@
     transform: translateX(50%) translateY(-50%) translateZ(-27px) scale(4);
     z-index: -99;
 }
-.paragraph {
+.paragraph-section-one {
     width: 50%;
     padding: 4rem;
     line-height: 1.8em;
     letter-spacing: 3px;
     font-weight: 700;
 }
-.paragraph::after,
-.paragraph::before {
+.paragraph-section-one::after,
+.paragraph-section-one::before {
     font-size: 2em;
     color: #111;
     font-weight: 900;
 }
-.paragraph::before {
+.paragraph-section-one::before {
     content: open-quote;
 }
-.paragraph::after {
+.paragraph-section-one::after {
     content: close-quote;
 }
-.image-container {
+.image-container-section-one {
     width: 50%;
     height: 100%;
     padding: 2rem;
@@ -77,37 +77,37 @@
     justify-content: center;
     align-items: center;
 }
-.mountain-image {
+.mountain-image-section-one {
     position: absolute;
     height: 60%;
     min-width: 300px;
     border-radius: 2rem;
     border: 3px solid rgba(0, 0, 0, 0.3);
 }
-.mountain-image-5 {
+.mountain-image-5-section-one {
     transform: rotate(-5deg);
 }
-.mountain-image-10 {
+.mountain-image-10-section-one {
     transform: rotate(-10deg);
 }
 
 @media only screen and (max-width: 768px) {
-    .title {
+    .title-section-one {
         font-size: 5rem;
     }
-    .normal {
+    .normal-section-one {
         flex-direction: column;
     }
-    .image-container {
+    .image-container-section-one {
         width: 100%;
     }
-    .mountain-image {
+    .mountain-image-section-one {
         width: 50%;
         height: auto;
         padding: 0;
         margin: 0;
     }
-    .paragraph {
+    .paragraph-section-one {
         width: 100%;
         padding: 0;
     }
